@@ -1,0 +1,325 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 1200px;
+    min-width: 1024px; 
+    min-height: 850px;
+    overflow-y: scroll;
+    width: 100%;  
+    float: center;
+    margin: 0;
+    background-image: url(../img/backround.png) no-repeat;
+}
+header
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/flower.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  	display: inline-block;
+  	position: absolute;
+  	z-index: 7;
+  	top: 0;
+}
+.navigation{
+	width: 100%;
+	height: 10%;
+	top: 0;	
+	left: 0;
+	background-color: rgba(255,255,255,0.9);
+	display: inline-flex;
+	z-index: 5;
+}
+h1
+{
+	margin-left: 12%;
+	margin-top: 0;	
+	font-size: 30pt;
+	float: center;
+	width: auto;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+h1 span
+{
+	color: #b73958;
+}
+nav
+{
+	display: inline-flex;
+	width: 60%;
+	justify-content: center;
+}
+nav ul
+{
+	list-style-type: none;
+	display: inline-flex; 
+	align-self: flex-start;
+}
+nav ul li
+{
+	display: inline; 
+	min-width: 30%;
+	margin-right: 3%;
+	cursor: pointer;
+	font-size: 16pt;
+	justify-content: center;
+}
+nav ul li:hover
+{
+	color: #e70c0a;
+}
+nav ul li button
+{
+	width: 100%;
+	border-radius: 3px;
+	background-color: #de6d6e;
+	border: 2px solid #de6d6e;
+	color: white; 
+	font-size: 16pt;
+	font-family: 'Open Sans', sans-serif;
+}
+nav ul li img
+{
+	width: 15%;
+	height: 15%;
+	vertical-align: baseline;
+	padding-right: 10%
+}
+.picture-box
+{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	position: relative;
+	font-size: 25px;
+	margin-top: 50vh;
+	color: white;
+	line-height: 1;
+	text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.22);
+}
+.picture-box h2
+{
+	font-size: 69pt;
+	text-transform: uppercase;
+	line-height: 1;
+	margin: 0;
+	z-index: 5;
+}
+.picture-box p
+{
+	float: bottom;
+}
+main
+{
+	width: 100%;
+	margin-top: calc(100vh + 5vh);
+	left: 0;
+	display: block;
+	z-index: 11;
+	flex-grow: 1;
+}
+.description
+{
+	width: 100%;
+	text-align: center;
+	left: 0;
+}
+h3
+{
+	font-size: 35pt;
+}
+.description p
+{
+
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 18pt;
+}
+.banner
+{
+	width: 100%;
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 5%;
+}
+figure
+{
+	width: 35vh;
+	height: 35vh;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	position: relative;
+}
+.icon
+{
+	display: block;
+    width: 15vh;
+    height: auto; 
+    z-index: 4;
+    margin-top: -5vh;
+    position: absolute;
+}
+.ellipse
+{
+	display: block;
+    position: relative;
+	width: 35vh;
+	height: 35vh;
+	z-index: -5;
+}
+figcaption
+{
+	color: white;
+	text-align: center;
+	bottom: 7vh;
+	position: absolute; 
+	font-size: 17pt;
+}
+figure:nth-child(3) figcaption
+{
+	background-color: #ff5649;
+	opacity: 0.5;
+	z-index: -3;
+}
+figure p
+{
+	width: 80%;
+	color: white;
+	text-align: center;
+	position: absolute; 
+	padding-left: 1vw;
+	padding-right: 1vw;
+	font-size: 12pt;
+}
+#about
+{
+	margin-top: 10vh; 
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.simply
+{
+	top: 0;
+	width: 80vw;
+	height: auto;
+	margin-bottom: 5vh;
+	float: middle;
+	display: inline-block;
+}
+.simply img
+{
+	width: 15vw;
+	margin-top: 5vh;
+	display: inline;
+	float: left;
+	position: relative;
+	margin-right: 3vh;
+}
+.information
+{
+	position: relative;
+	text-align: left;
+	display: block;
+}
+.information h4
+{
+	display: block;
+	line-height: 0.1;
+	font-size: 27pt;
+	font-family: 'Open Sans', sans-serif;
+}
+.information p
+{
+	display: block;
+	line-height: 1;
+	font-size: 15pt;
+	font-family: 'Open Sans', sans-serif;
+}
+footer
+{
+	background: #272425;
+	display: inline-block;
+	margin-top: 7vh;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: auto;
+  	color: #696b6a;
+	font-family: 'Open Sans', sans-serif;
+}
+.submenu
+{
+	margin-left: 4vw;
+	width: 9vw;
+	display:inline-block;
+	text-align: left;
+	color: #aeaeae;
+}
+.submenus:first-child
+{
+	margin-left: 5vw;
+}
+h5
+{
+	position: relative;
+	top: 0;
+	font-size: 21pt;
+	line-height: 1;
+	display:inline-block;
+}
+.submenu ul
+{
+	position: relative;
+	cursor: pointer;
+	line-height: 1.5;
+	font-size: 15pt;
+	list-style-type: none;
+	text-align: left;
+	margin: 0; 
+	padding: 0;
+	color: #696b6a;
+	bottom: 5vh;
+	padding-top: 3vh;
+}
+.contact-info
+{
+	display: inline;
+	float: right;
+	margin-top: 10vh;
+	margin-right: 9vw;
+	width: 30vw;
+	height: 100%;
+	position: relative;
+}
+.ellipse_grey
+{
+	display: inline-block;
+	width: 10vh;
+	height: 10vh;
+	z-index: -5;
+}
+.sm_icon
+{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 2vw;
+	margin-top: 1vh; 
+	width: 10vh;
+	height: 10vh;
+	background-image: url(../img/ellipse_grey.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  	z-index: -7;
+}
+.sm_icon img
+{
+	height: 5vh;
+	display: block;
+	z-index: 5;
+}
